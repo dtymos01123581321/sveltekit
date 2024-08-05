@@ -16,5 +16,5 @@ export async function handleRequest(request) {
     //
     // await LINKS.put(`${shortUrl}:log:${logData.time}`, JSON.stringify(logData));
 
-    return Response.redirect(destinationUrl, 302);
+    // return Response.redirect(destinationUrl, 302);
 }
