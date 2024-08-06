@@ -1,9 +1,7 @@
-name = "link-shortener-worker"
+name = "sveltekit-link-shortener"
 type = "javascript"
-account_id = "your-cloudflare-account-id"
+account_id = "your_account_id"
 workers_dev = true
-compatibility_date = "2024-08-04"
-
 kv_namespaces = [
-    { binding = "LINKS", id = "your-kv-id", preview_id = "your-preview-kv-id" }
+    { binding = "LINKS", id = "your_kv_namespace_id" }
 ]
