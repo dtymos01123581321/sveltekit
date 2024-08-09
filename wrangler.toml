@@ -1,0 +1,17 @@
+name = "sveltekit-url-shortener"
+type = "javascript"
+
+account_id = "de8b13535c3d7d9866033edeaffbd8ad"
+workers_dev = true
+compatibility_date = "2023-01-01"
+
+[site]
+bucket = "./.svelte-kit/cloudflare"
+entry-point = "workers-site"
+
+[build]
+command = "npm run build"
+upload_format = "modules"
+
+[env.production]
+compatibility_flags = ["nodejs_compat"]
