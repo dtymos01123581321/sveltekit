@@ -1,7 +1,0 @@
-name = "sveltekit-link-shortener"
-type = "javascript"
-account_id = "your_account_id"
-workers_dev = true
-kv_namespaces = [
-    { binding = "LINKS", id = "your_kv_namespace_id" }
-]
