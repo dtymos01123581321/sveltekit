@@ -12,6 +12,11 @@ entry-point = "workers-site"
 [build]
 command = "npm run build"
 upload_format = "modules"
+upload_dir = "build"
+
+[build.environment]
+node_version = "18.19.0"
 
 [env.production]
 compatibility_flags = ["nodejs_compat"]
+vars = { NODE_ENV = "production" }

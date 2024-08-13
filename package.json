@@ -22,6 +22,7 @@
 	"type": "module",
 	"dependencies": {
 		"@picocss/pico": "^2.0.6",
-		"@sveltejs/adapter-cloudflare": "^4.7.1"
+		"@sveltejs/adapter-cloudflare": "^4.7.1",
+		"wrangler": "^3.70.0"
 	}
 }
